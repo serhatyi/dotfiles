@@ -187,4 +187,5 @@ bindsym $mod+d exec --no-startup-id rofi -show drun -run-command "i3-msg exec '{
 gaps inner 10
 gaps outer 1
 #smart_borders on
+
 border_radius 2

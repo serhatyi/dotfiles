@@ -1,5 +1,4 @@
 #### Nvim Keys
-> - Test
 > - Last Session Start = Space + . 
 > - Per Word = w - b
 > - Find and replace = %s/find/replace/g
