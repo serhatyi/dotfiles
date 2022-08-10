@@ -1,0 +1,10 @@
+*
+!.gitignore
+!.config/nvim/*
+!.config/i3/*
+!.config/rofi/*
+!.config/polybar/*
+!.config/picom/*
+!.config/tmux/*
+!.zshrc
+
