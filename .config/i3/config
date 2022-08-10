@@ -14,10 +14,10 @@ set $mod Mod4
 # is used in the bar {} block below.
 font pango:monospace 8
 
-for_window [class="^.*"] border pixel 1
+for_window [class="^.*"] border pixel 0
 new_window 1pixel
-default_border pixel 1
-default_floating_border pixel 1
+default_border pixel 0
+default_floating_border pixel 0
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
 #font pango:DejaVu Sans Mono 8
@@ -181,11 +181,9 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
-exec --no-startup-id polybar example
+exec_always --no-startup-id polybar example
 exec_always --no-startup-id picom
 bindsym $mod+d exec --no-startup-id rofi -show drun -run-command "i3-msg exec '{cmd}'" -show-icons
 gaps inner 10
 gaps outer 1
 #smart_borders on
-
-border_radius 2
